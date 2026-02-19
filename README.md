@@ -31,6 +31,7 @@ VK Play позволяет:
 - Облачный гейминг
 
 1.3 Целевая аудитория
+
 География: Россия
 
 Размер аудитории:
@@ -43,7 +44,8 @@ VK Play позволяет:
 
 Источники:
 https://dtf.ru/id534837/4763190-vk-play-ne-svergnut-steam
+
 https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
+
 https://ixbt.games/news/2026/01/19/zenshhiny-igrali-aktivnee-muzcin-vk-play-podvel-itogi-igrovoi-aktivnosti-polzovatelei-na-ianvarskix-prazdnikax.amp.html
-Status
-Community
+
