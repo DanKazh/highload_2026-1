@@ -40,18 +40,68 @@ VK Play позволяет:
 География: Россия
 
 Размер аудитории:
-- MAU — 15 млн человек
-- DAU — 5 млн человек
+- MAU — 13 млн человек
+- DAU — 3 млн человек
 
-Гендерное распределение: 80% пользователей - мужчины и 20% - женщины
+Гендерное распределение: 64,5% пользователей - мужчины и % - женщины
 
 Целевая возрастная категория: 35-44 
 
+
+
+
+---
+
+## 2. Расчет нагрузки
+
+### 2.1 Продуктовые метрики
+
+| Метрика | Значение | Комментарий / Источник |
+| :--- | :--- | :--- |
+| **MAU** | 12,8 млн | [[1](https://corp.vkcdn.ru/media/files/RUS_Results_Presentation_9М_2025.pdf)] |
+| **DAU** | 3 млн | [[2](https://www.tbank.ru/invest/social/profile/T_Data/6e95cc47-5b56-48e1-b64a-d741f634c0b2/?author=profile#:~:text=%D0%91%D0%BE%D0%BB%D0%B5%D0%B5%20%D1%87%D0%B5%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%B8%20%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD%20(27%25)%20%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%8E%D1%82%20%D0%B8%D0%B3%D1%80%D1%8B%20%D0%BA%D0%B0%D0%B6%D0%B4%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C)] |
+| **Среднее время игры в день** | 143 мин | [[3](https://vkplay.ru/media/feat/vo-chto-polzovateli-vk-play-igrali-na-yanvarskikh-prazdnikakh/?autologin=success#:~:text=%D0%96%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B%2C%20%D0%B2%20%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%BC%2C%20%D0%B8%D0%B3%D1%80%D0%B0%D0%BB%D0%B8%20%D0%BD%D0%B0%206%20%D0%BC%D0%B8%D0%BD%D1%83%D1%82%20%D0%B4%D0%BE%D0%BB%D1%8C%D1%88%D0%B5%2C%20%D1%87%D0%B5%D0%BC%20%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D1%8B%20%E2%80%93%20146%20%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%20140)]  |
+| **Общее количество зарегистрированных пользователей** | 58,6 млн | [[1](https://corp.vkcdn.ru/media/files/RUS_Results_Presentation_9М_2025.pdf)] |
+| **Общий размер хранилища пользователя (облачный гейминг)** | 160 ГБ | [[4](https://support.vkplay.ru/vkp_cloud/faq/4357#:~:text=%D0%9E%D0%B1%D1%89%D0%B8%D0%B9%20%D0%BE%D0%B1%D1%8A%D1%91%D0%BC%20%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20%2D%20150%20Gb%20(%D0%B4%D0%B8%D1%81%D0%BA%20D%3A)%20%D0%BD%D0%B0%20%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D0%BE%D0%BC%20%D0%B4%D0%B8%D1%81%D0%BA%D0%B5%20%D0%B8%20%D0%BD%D0%B5%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%BE%D0%BC%20%D0%B4%D0%B8%D1%81%D0%BA%D0%B5%20(%D0%B4%D0%B8%D1%81%D0%BA%20C%3A)%20~10%2D15%20Gb.)] |
+| **Количество игр** | 10 тыс | [[5](https://vkbusiness.cn/en/play)] |
+| **Количество стриммеров** | 40 тыс | [[5](https://vkbusiness.cn/en/play)] |
+| **Объем записанных стримов (с 2022 года)** | 111 млн часов | [[5](https://vkbusiness.cn/en/play)] |
+
+---
+
+### 2.2 Технические метрики
+
+#### Расчёт объёма хранения
+
+| Тип файлов | Расчёт | Общий объем |
+| :--- | :--- | :--- |
+| **Библиотека игр** | 15 ГБ × 10000 игр ≈ 150 ПБ | **~150 ПБ** |
+| **Облачный гейминг (диски пользователей)** | 160 ГБ × 12800000 человек × 0,01 ≈ 20,5 ПБ | **~20,5 ПБ** |
+| **Записи стримов** | 10 ГБ × 111000000 часов ≈ 1,11 ЭБ | **~1,11 ЭБ** |
+| **Изображения игр (обложки, скриншоты) и трейлеры** | 100 МБ × 10000 игр ≈ 1 ТБ | **~1 ТБ** |
+| **Данные пользователей (ник, аватарки, настройки, список друзей)** | 2 МБ × 58600000 человек ≈ 117 ТБ | **~117 ТБ** |
+| **Итого** | | **~1,28 ЭБ** |
+
+---
+
+
+
+
 Источники:
+1. https://corp.vkcdn.ru/media/files/RUS_Results_Presentation_9М_2025.pdf
 
-https://dtf.ru/id534837/4763190-vk-play-ne-svergnut-steam
+2. https://www.tbank.ru/invest/social/profile/T_Data/6e95cc47-5b56-48e1-b64a-d741f634c0b2/?author=profile
 
-https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
+3. https://vkplay.ru/media/feat/vo-chto-polzovateli-vk-play-igrali-na-yanvarskikh-prazdnikakh/?autologin=success
 
-https://ixbt.games/news/2026/01/19/zenshhiny-igrali-aktivnee-muzcin-vk-play-podvel-itogi-igrovoi-aktivnosti-polzovatelei-na-ianvarskix-prazdnikax.amp.html
+4. https://support.vkplay.ru/vkp_cloud/faq/4357
+
+5. https://vkbusiness.cn/en/play
+   
+6. https://dtf.ru/id534837/4763190-vk-play-ne-svergnut-steam
+
+7. https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
+
+
+
 
