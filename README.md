@@ -192,6 +192,8 @@ RPS рассчитывается по формуле:
 
 10. https://kulturologia.ru/news/7431/
 
+11. https://habr.com/ru/companies/vk/articles/911752/
+
 
 
 
