@@ -143,6 +143,23 @@ RPS рассчитывается по формуле:
 
 Источник данных - https://vk.company/ru/press/releases/11264/#main
 
+---
+
+### 3.3 Распределение запросов по ДЦ
+Доля трафика на каждом дата-центре (ДЦ) пропорциональна интернет-аудитории региона, который он обслуживает [[10](https://kulturologia.ru/news/7431/)]
+| Регион (ДЦ)	| Процент трафика | Пиковый RPS |
+| :--- | :--- | :--- |
+| Москва | 57% | 206 |
+| Санкт-Петербург | 17% | 61,5 |
+| Пермь | 17% | 61,5 |
+| Новосибирск | 9% | 32,5 |
+
+
+---
+
+
+
+
 Источники:
 1. https://corp.vkcdn.ru/media/files/RUS_Results_Presentation_9М_2025.pdf
 
@@ -161,6 +178,8 @@ RPS рассчитывается по формуле:
 8. https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
 
 9. https://vk.company/ru/press/releases/11264/#main
+
+10. https://kulturologia.ru/news/7431/
 
 
 
