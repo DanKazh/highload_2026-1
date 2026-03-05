@@ -131,7 +131,17 @@ RPS рассчитывается по формуле:
 | market-cdn.vkplay.ru | CDN для статики магазина |
 | store-sentry.vkplay.ru | Система мониторинга |
 
+---
 
+### 3.2 Расположение дата-центров
+| Расположение | Обслуживаемый регион | Обоснование выбора |
+| :--- | :--- | :--- |
+| Москва | Центральный федеральный округ | Крупнейший узел интернет-трафика РФ, обеспечивает минимальную задержку для самого густонаселенного региона страны. |
+| Санкт-Петербург | Северо-Западный федеральный округ | Второй по величине узел связи, резервирование для центрального региона |
+| Пермь | Приволжский федеральный округ, Урал | Стратегическое расположение после покупки компании Playkey (пермского разработчика облачного гейминга) [[7](https://www.forbes.ru/newsroom/tehnologii/430233-mailru-group-kupila-razrabotchika-oblachnoy-igrovoy-platformy-playkey-iz)], ключевой узел для покрытия Приволжья и Урала. |
+| Новосибирск | Сибирский федеральный округ | Ключевой узел для покрытия азиатской части России, снижение задержек для пользователей за Уралом до комфортных значений |
+
+Источник данных - https://vk.company/ru/press/releases/11264/#main
 
 Источники:
 1. https://corp.vkcdn.ru/media/files/RUS_Results_Presentation_9М_2025.pdf
@@ -146,7 +156,11 @@ RPS рассчитывается по формуле:
    
 6. https://dtf.ru/id534837/4763190-vk-play-ne-svergnut-steam
 
-7. https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
+7. https://www.forbes.ru/newsroom/tehnologii/430233-mailru-group-kupila-razrabotchika-oblachnoy-igrovoy-platformy-playkey-iz
+
+8. https://www.goha.ru/portret-rossijskogo-gejmera-v-2026-godu-175-milliardov-deneg-na-igry-na-donaty-mobilki-i-82-muzhchin-lGZ1y6
+
+9. https://vk.company/ru/press/releases/11264/#main
 
 
 
